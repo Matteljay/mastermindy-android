@@ -1,0 +1,70 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="4"
+        android:entries="@array/opt_numPawns"
+        android:entryValues="@array/opt_numPawns"
+        android:key="numPawns"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pawn_fields_num" />
+
+    <ListPreference
+        android:defaultValue="6"
+        android:entries="@array/opt_assortPawns"
+        android:entryValues="@array/opt_assortPawns"
+        android:key="assortPawns"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pawn_color_assort" />
+
+    <ListPreference
+        android:defaultValue="100"
+        android:entries="@array/opt_maxTurns"
+        android:entryValues="@array/opt_maxTurns"
+        android:key="maxTurns"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/max_turncount" />
+
+    <ListPreference
+        android:defaultValue="@string/none"
+        android:entries="@array/opt_gameTime"
+        android:entryValues="@array/opt_gameTime"
+        android:key="gameTime"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/max_time_game_min" />
+
+    <ListPreference
+        android:defaultValue="@string/none"
+        android:entries="@array/opt_turnTime"
+        android:entryValues="@array/opt_turnTime"
+        android:key="turnTime"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/max_time_turn_sec" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="avoidDuplicates"
+        android:title="@string/allow_duplicates" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="showHints"
+        android:title="@string/show_startup_hints" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="screenKeepOn"
+        android:title="@string/keep_screen_on" />
+
+    <Preference
+        android:selectable="true"
+        android:key="btnCopyCrypto"
+        android:title="MasterMindy [[version]]"
+        android:summary="@string/donate_text" />
+
+</PreferenceScreen>

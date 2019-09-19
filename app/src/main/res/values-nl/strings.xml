@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MasterMindy</string>
+    <string name="action_restart">Herstart</string>
+    <string name="action_save_exit">Opslaan &#x26; Sluiten</string>
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="donate_text">Leuk spel? Doneer aan Matteljay@pm.me \nDruk voor het bitcoin adres</string>
+    <string name="clipboard">Klembord</string>
+    <string name="keep_screen_on">Scherm aanhouden in spel</string>
+    <string name="show_startup_hints">Toon hints bij start</string>
+    <string name="allow_duplicates">Vermijd duplicaten in het geheim</string>
+    <string name="max_time_turn_sec">Tijd per beurt (seconden)</string>
+    <string name="max_time_game_min">Tijd per spel (minuten)</string>
+    <string name="max_turncount">Aantal beurten per spel</string>
+    <string name="pawn_fields_num">Aantal pionveldjes</string>
+    <string name="none">geen</string>
+    <string name="fill_all_fields">Veldjes vullen</string>
+    <string name="you_won_game">Gewonnen \\o/</string>
+    <string name="out_of_turns">Geen beurten meer</string>
+    <string name="exit_dialog_title">Sluiten</string>
+    <string name="exit_dialog_body">Wil je het spel verlaten zonder opslaan?</string>
+    <string name="game_restored">Spel hersteld</string>
+    <string name="restart_notice">Zal het spel herstarten</string>
+    <string name="game_timeout">Tijd is verstreken</string>
+    <string name="pawn_color_assort">Aantal pionkleuren</string>
+    <string name="reveal_secret">Toon geheim</string>
+    <string name="game_ended">Spel beëindigd</string>
+    <string name="new_game">Nieuw spel</string>
+</resources>

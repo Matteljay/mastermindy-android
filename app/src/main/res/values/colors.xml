@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="fab">#7744bb44</color>
+    <color name="endfab">#77444444</color>
+    <color name="menufab">#77008577</color>
+    <color name="topOdd">#909584</color>
+    <color name="topEven">#767c6b</color>
+    <color name="sideOdd">#647d79</color>
+    <color name="sideEven">#526764</color>
+    <color name="history">#897679</color>
+</resources>

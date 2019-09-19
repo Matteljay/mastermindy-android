@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MasterMindy</string>
+    <string name="action_restart">Neu starten</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="action_save_exit">Speichern &#x26; Beenden</string>
+    <string name="exit_dialog_title">Beenden</string>
+    <string name="exit_dialog_body">Spiel verlassen, ohne zu speichern?</string>
+    <string name="game_restored">Spiel geladen</string>
+    <string name="restart_notice">Spiel wird neu gestartet</string>
+    <string name="game_timeout">Zeit ist vergangen</string>
+    <string name="pawn_color_assort">Anzahl der Farben</string>
+    <string name="clipboard">Zwischenablage</string>
+    <string name="out_of_turns">Keine Runden mehr</string>
+    <string name="you_won_game">Gewonnen \\o/</string>
+    <string name="fill_all_fields">Felder füllen</string>
+    <string name="none">keine</string>
+    <string name="pawn_fields_num">Anzahl der Felder</string>
+    <string name="max_turncount">Anzahl Runden pro Spiel</string>
+    <string name="max_time_game_min">Zeit pro Spiel (Minuten)</string>
+    <string name="max_time_turn_sec">Zeit pro Runde (Sekunden)</string>
+    <string name="allow_duplicates">Vermeiden Duplikate ins Geheimnis</string>
+    <string name="show_startup_hints">Hinweise beim Start</string>
+    <string name="keep_screen_on">Schirm eingeschaltet lassen</string>
+    <string name="donate_text">Tolles Spiel? Spende an Matteljay@pm.me \nDrücken für die Bitcoin-Adresse</string>
+    <string name="game_ended">Spiel beendet</string>
+    <string name="reveal_secret">Zeige Geheimnis</string>
+    <string name="new_game">Neues Spiel</string>
+</resources>

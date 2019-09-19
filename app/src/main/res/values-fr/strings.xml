@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MasterMindy</string>
+    <string name="action_restart">Redémarrer</string>
+    <string name="action_save_exit">Sauve &#x26; Quitter</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="donate_text">Jeu amusant? Donner à Matteljay@pm.me \nAppuyez pour l\'adresse bitcoin</string>
+    <string name="clipboard">Presse-papier</string>
+    <string name="keep_screen_on">Laisser l\'écran sur</string>
+    <string name="show_startup_hints">Astuces au démarrage</string>
+    <string name="allow_duplicates">Éviter doublons dans le secret</string>
+    <string name="max_time_turn_sec">Temps par tour (secondes)</string>
+    <string name="max_time_game_min">Temps par match (minutes)</string>
+    <string name="max_turncount">Tours par match</string>
+    <string name="pawn_color_assort">Quantité de couleurs</string>
+    <string name="pawn_fields_num">Nombre des fentes</string>
+    <string name="none">aucun</string>
+    <string name="fill_all_fields">Remplir les fentes</string>
+    <string name="you_won_game">Tu as gagné \\o/</string>
+    <string name="out_of_turns">Hors des tours</string>
+    <string name="exit_dialog_title">Fermer</string>
+    <string name="exit_dialog_body">Voulez-vous quitter le jeu sans sauver?</string>
+    <string name="game_restored">Jeu restauré</string>
+    <string name="restart_notice">Va redémarrer le jeu</string>
+    <string name="game_timeout">Le temps a expiré</string>
+    <string name="game_ended">Jeu terminé</string>
+    <string name="reveal_secret">Révéler secret</string>
+    <string name="new_game">Nouveau jeu</string>
+</resources>

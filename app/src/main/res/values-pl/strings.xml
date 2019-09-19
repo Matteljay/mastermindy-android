@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MasterMindy</string>
+    <string name="action_save_exit">Zapisz &#x26; Wyjdź</string>
+    <string name="title_activity_settings">Ustawienia</string>
+    <string name="donate_text">Zabawna gra? Darowiznę na Matteljay@pm.me \nNaciśnij do adresu bitcoin</string>
+    <string name="clipboard">Schowek</string>
+    <string name="keep_screen_on">Pozostaw ekran włączony w grze</string>
+    <string name="show_startup_hints">Porady na początku</string>
+    <string name="allow_duplicates">Unikaj duplikaty w tajemnicy</string>
+    <string name="max_time_turn_sec">Czas na turę (sekundy)</string>
+    <string name="max_time_game_min">Czas na grę (minuty)</string>
+    <string name="max_turncount">Tury na grę</string>
+    <string name="pawn_color_assort">Zestaw kolorów</string>
+    <string name="pawn_fields_num">Liczba miejsc</string>
+    <string name="none">żaden</string>
+    <string name="fill_all_fields">Wypełnij sloty</string>
+    <string name="you_won_game">Wygrałeś \\o/</string>
+    <string name="out_of_turns">Nie ma już tury</string>
+    <string name="exit_dialog_title">Zamknąć</string>
+    <string name="exit_dialog_body">Czy chcesz opuścić grę bez zapisywania?</string>
+    <string name="game_restored">Gra została przywrócona</string>
+    <string name="restart_notice">Ponownie uruchomi grę</string>
+    <string name="action_restart">Uruchom ponownie</string>
+    <string name="game_timeout">Czas minął</string>
+    <string name="game_ended">Gra zakończyła</string>
+    <string name="reveal_secret">Pokaż sekret</string>
+    <string name="new_game">Nowa gra</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/content_main"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        app:fabCustomSize="@dimen/fab_size"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/fab"
+        app:elevation="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textFab"
+        android:text="@string/hashnum"
+        android:elevation="16dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_anchor="@id/fab"
+        app:layout_anchorGravity="center" />
+
+    <ProgressBar
+        android:id="@+id/turnProgressBar"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:elevation="16dp"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/progress_game"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="1000"
+        android:progress="850"
+        app:layout_anchor="@id/fab"
+        app:layout_anchorGravity="center" />
+
+    <ProgressBar
+        android:id="@+id/gameProgressBar"
+        android:layout_width="@dimen/fab_size_edge"
+        android:layout_height="@dimen/fab_size_edge"
+        android:elevation="16dp"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/progress_turn"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="1000"
+        android:progress="750"
+        app:layout_anchor="@id/fab"
+        app:layout_anchorGravity="center" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/menufab"
+        android:layout_width="@dimen/menufab_size"
+        android:layout_height="@dimen/menufab_size"
+        android:layout_marginEnd="@dimen/fab_interdistance"
+        android:layout_marginBottom="@dimen/fab_margin"
+        app:fabCustomSize="@dimen/menufab_size"
+        app:backgroundTint="@color/menufab"
+        app:elevation="0dp"
+        app:layout_anchor="@id/fab"
+        app:layout_anchorGravity="center"
+        android:src="@drawable/ic_more_vert_white_24dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

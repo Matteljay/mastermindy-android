@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1.0"
+    android:layout_marginTop="4dp"
+    android:orientation="horizontal"
+    android:gravity="top">
+
+    <TableLayout
+        android:id="@+id/pawnField"
+        android:background="@android:color/holo_green_light"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2" />
+
+    <View
+        android:layout_width="4dp"
+        android:layout_height="match_parent" />
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight = "0.8">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight = "0.2"
+            android:gravity="center">
+            <TableRow
+                android:id="@+id/playField"
+                android:background="@android:color/holo_orange_light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "1.0">
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp" />
+
+        <ScrollView
+            android:id="@+id/scroller"
+            android:background="@android:color/holo_purple"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75">
+            <LinearLayout
+                android:id="@+id/scrollField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="vertical">
+            </LinearLayout>
+        </ScrollView>
+    </TableLayout>
+
+</LinearLayout>
+

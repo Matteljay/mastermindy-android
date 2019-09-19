@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="fab_size">55dp</dimen>
+    <dimen name="fab_size_edge">63dp</dimen>
+    <dimen name="fab_interdistance">100dp</dimen>
+    <dimen name="menufab_size">32dp</dimen>
+</resources>

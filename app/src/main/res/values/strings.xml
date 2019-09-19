@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">MasterMindy</string>
+    <string name="action_restart">Restart</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="donate_text">Fun game? Donate to Matteljay@pm.me \nTap to copy bitcoin address</string>
+    <string name="clipboard">Clipboard</string>
+    <string name="keep_screen_on">Keep screen on in game</string>
+    <string name="show_startup_hints">Show startup hints</string>
+    <string name="allow_duplicates">Avoid duplicates in the secret</string>
+    <string name="max_time_turn_sec">Max time per turn (seconds)</string>
+    <string name="max_time_game_min">Max time per game (minutes)</string>
+    <string name="max_turncount">Max turns per game</string>
+    <string name="pawn_color_assort">Pawn color assortment</string>
+    <string name="pawn_fields_num">Pawn field amount</string>
+    <string name="none">none</string>
+    <string name="fill_all_fields">Fill \'em all</string>
+    <string name="you_won_game">You won \\o/</string>
+    <string name="out_of_turns">Out of turns</string>
+    <string name="exit_dialog_title">Exit</string>
+    <string name="exit_dialog_body">Do you want to leave the game without saving?</string>
+    <string name="game_restored">Game restored</string>
+    <string name="restart_notice">Will restart game</string>
+    <string name="game_timeout">Game timed out</string>
+    <string name="reveal_secret">Reveal secret</string>
+    <string name="game_ended">Game ended</string>
+    <string name="action_save_exit">Save &#x26; Exit</string>
+    <string name="hashnum" translatable="false">#%1$d</string>
+    <string name="new_game">New game</string>
+
+    <string-array name="opt_numPawns">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="opt_assortPawns">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="opt_maxTurns">
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="opt_gameTime">
+        <item>@string/none</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="opt_turnTime">
+        <item>@string/none</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </string-array>
+
+</resources>
