@@ -7,10 +7,8 @@ android {
         minSdkVersion 21
         targetSdkVersion 28
 
-        def buildDateStamp = new Date().format("yyyyMMdd").toInteger()
-        versionCode buildDateStamp
-        versionName "$buildDateStamp"
-        buildConfigField "String", "BUILD_DATE_STAMP", "\"$buildDateStamp\""
+        versionCode 20190923
+        versionName "$versionCode"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true

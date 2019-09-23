@@ -10,10 +10,10 @@
 
 ## Screenshots
 
-![](https://github.com/Matteljay/mastermindy-android/blob/master/screenshots/tall.png)
-![](https://github.com/Matteljay/mastermindy-android/blob/master/screenshots/timer.png)
-![](https://github.com/Matteljay/mastermindy-android/blob/master/screenshots/settings.png)
-![](https://github.com/Matteljay/mastermindy-android/blob/master/screenshots/wide99.png)
+![](https://github.com/Matteljay/mastermindy-android/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png)
+![](https://github.com/Matteljay/mastermindy-android/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png)
+![](https://github.com/Matteljay/mastermindy-android/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png)
+![](https://github.com/Matteljay/mastermindy-android/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png)
 
 
 ## About

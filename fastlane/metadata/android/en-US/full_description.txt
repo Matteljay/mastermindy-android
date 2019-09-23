@@ -1,0 +1,19 @@
+MasterMindy is based on Mastermind, a turn-based code breaking game. The app will generate a secret code for you to deduce.
+You will only receive minimal hints. A black hint means you positioned a pawn perfectly... but which one? A white hint
+means one of your selected pawns is correct but in the wrong place. Play alone or with friends to try and solve this puzzle.
+You can easily change the difficulty on the settings page.
+
+Game Features
+- Scaling orientation changes on the fly for phones and tables
+- Flexible amount of pawn fields
+- Flexible assortment of pawn colors to choose from
+- Difficulty change for allowing duplicate colors in the secret
+- Ability to show collision sensitive startup hints
+- Save-game ability so that you may continue another time
+- Various time and turn limiting capabilities
+- Drag & drop pawns on long-press
+- Option to disable screen sleeping while you think about your turn
+- Uniquely named pawns for color blind people 
+- Translated into various languages: spanish, portuguese, german, french, polish and dutch
+- Bitcoin donation ability :)
+

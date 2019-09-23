@@ -21,7 +21,7 @@ public class PrefsFragment extends PreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.pref_general);
-        findPreference("btnCopyCrypto").setTitle("MasterMindy " + BuildConfig.BUILD_DATE_STAMP);
+        findPreference("btnCopyCrypto").setTitle("MasterMindy " + BuildConfig.VERSION_NAME);
 
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
         Map<String,?> keys = sharedPreferences.getAll();
