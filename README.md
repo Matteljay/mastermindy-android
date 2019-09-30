@@ -24,10 +24,10 @@ means one of your selected pawns is correct but in the wrong place. Play alone o
 You can easily change the difficulty on the settings page.
 
 
-Further reading about the history, math & strategy of the game:
-- <https://en.wikipedia.org/wiki/Mastermind_(board_game)>
-- <http://mathworld.wolfram.com/Mastermind.html>
+Introduction video, strategy & further reading:
+- <https://www.youtube.com/watch?v=DtAQfHpt6_8>
 - <https://www.youtube.com/watch?v=XX5TlB6xT3M>
+- <https://en.wikipedia.org/wiki/Mastermind_(board_game)>
 
 
 ## Game Features
