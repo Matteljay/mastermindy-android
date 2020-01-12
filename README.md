@@ -61,10 +61,8 @@ Introduction video, strategy & further reading:
 - Make sure to allow installation from unknown sources. This app will NOT ask special permissions (access to your contacts, files, fotos,..)
 it will NOT connect to the internet. Learn more about installing an APK file from unknown sources [here](https://www.androidcentral.com/unknown-sources)
 - Download & run the latest .apk file from the [releases](https://github.com/Matteljay/mastermindy-android/releases) page
-
+- Alternatively, you can download it from F-Droid [here](https://f-droid.org/packages/eth.matteljay.mastermindy/)
 
 ## Contact info & donations
 
 See the [contact](CONTACT.md) file.
-
-
