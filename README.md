@@ -5,7 +5,6 @@
 - Author: Matteljay
 - Language: Java
 - IDE: Android Studio
-- Homepage: https://github.com/Matteljay
 
 
 ## Screenshots
